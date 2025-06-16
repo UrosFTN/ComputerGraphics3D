@@ -1,0 +1,43 @@
+# Build output
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+*.log
+*.exp
+*.lib
+*.dll
+
+# VS build folders
+[Bb]uild*/
+[Bb]in/
+[Oo]bj/
+ipch/
+*.sdf
+*.opensdf
+
+# CMake (if used)
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# Visual Studio
+.vscode/
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# Crash dumps, temp files
+*.stackdump
+*.tmp
+*.temp
+*.log
